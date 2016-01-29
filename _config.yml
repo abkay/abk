@@ -77,10 +77,10 @@ sechby:
   tag:   #with
 
 # BUILD SETTINGS
-markdown: redcarpet
-redcarpet:
-    extensions: [ "fenced_code_blocks", "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
-# highlighter: pygments
+markdown: kramdown
+# redcarpet:
+#     extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
+highlighter: pygments
 sass:
   sass_dir: _sass
   style: :compressed

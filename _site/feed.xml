@@ -5,18 +5,22 @@
     <atom:link href="http://lemon8.top/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://lemon8.top/</link>
     <description>used by search engines</description>
-    <pubDate>Sat, 30 Jan 2016 00:21:43 +0800</pubDate>
+    <pubDate>Sat, 30 Jan 2016 00:32:28 +0800</pubDate>
     
       <item>
         <title>Swift 基础</title>
         <link>http://lemon8.top/blog/Swift-1/</link>
         <guid isPermaLink="true">http://lemon8.top/blog/Swift-1/</guid>
-        <description>&lt;h1 id=&quot;swift-基础语法&quot;&gt;Swift 基础语法&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;swift-&quot;&gt;Swift 基础语法&lt;/h1&gt;
 
-&lt;p&gt;swift 元组(tuples) &lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;let 衣服 = (&amp;quot;毛衣&amp;quot;,40,&amp;quot;合身&amp;quot;)
-let 衣服 : (String,Int,String) = (类型:&amp;quot;毛衣&amp;quot;,价格:     40,效果:&amp;quot;合身&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;p&gt;swift 元组(tuples)&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;swift
+let 衣服 = (&quot;毛衣&quot;,40,&quot;合身&quot;)
+let 衣服 : (String,Int,String) = (类型:&quot;毛衣&quot;,价格:     40,效果:&quot;合身&quot;)
+&lt;/code&gt;&lt;/p&gt;
+
+</description>
         <pubDate>Fri, 29 Jan 2016 00:00:00 +0800</pubDate>
       </item>
     
@@ -27,49 +31,41 @@ let 衣服 : (String,Int,String) = (类型:&amp;quot;毛衣&amp;quot;,价格:   
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
 &lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
+&lt;p&gt;## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6&lt;/p&gt;
 
 &lt;blockquote&gt;Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.&lt;/blockquote&gt;
 
 &lt;p&gt;Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.&lt;/p&gt;
 
 &lt;h2 id=&quot;unordered-list&quot;&gt;Unordered List&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;List Item&lt;/li&gt;
-&lt;li&gt;Longer List Item
-
-&lt;ul&gt;
-&lt;li&gt;Nested List Item&lt;/li&gt;
-&lt;li&gt;Nested Item&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;List Item&lt;/li&gt;
+  &lt;li&gt;List Item&lt;/li&gt;
+  &lt;li&gt;Longer List Item
+    &lt;ul&gt;
+      &lt;li&gt;Nested List Item&lt;/li&gt;
+      &lt;li&gt;Nested Item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List Item&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;ordered-list&quot;&gt;Ordered List&lt;/h2&gt;
-
 &lt;ol&gt;
-&lt;li&gt;List Item&lt;/li&gt;
-&lt;li&gt;Longer List Item
-
-&lt;ol&gt;
-&lt;li&gt;Nested OL Item&lt;/li&gt;
-&lt;li&gt;Another Nested Item&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;List Item&lt;/li&gt;
+  &lt;li&gt;List Item&lt;/li&gt;
+  &lt;li&gt;Longer List Item
+    &lt;ol&gt;
+      &lt;li&gt;Nested OL Item&lt;/li&gt;
+      &lt;li&gt;Another Nested Item&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List Item&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;definition-list&quot;&gt;Definition List&lt;/h2&gt;
-
 &lt;dl&gt;
   &lt;dt&gt;Coffee&lt;/dt&gt;
   &lt;dd&gt;Black hot drink&lt;/dd&gt;
@@ -117,7 +113,7 @@ let 衣服 : (String,Int,String) = (类型:&amp;quot;毛衣&amp;quot;,价格:   
 
 &lt;p&gt;Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/img/touring.jpg&quot; alt=&quot;&quot;&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/touring.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.&lt;/p&gt;
 
@@ -156,9 +152,9 @@ let 衣服 : (String,Int,String) = (类型:&amp;quot;毛衣&amp;quot;,价格:   
         <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
-&lt;li&gt;Donec a diam lectus&lt;/li&gt;
-&lt;li&gt;Sed sit amet ipsum mauris&lt;/li&gt;
+  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+  &lt;li&gt;Donec a diam lectus&lt;/li&gt;
+  &lt;li&gt;Sed sit amet ipsum mauris&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.&lt;/p&gt;
@@ -168,7 +164,7 @@ let 衣服 : (String,Int,String) = (类型:&amp;quot;毛衣&amp;quot;,价格:   
 &lt;p&gt;Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque&lt;/p&gt;
+  &lt;p&gt;Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.&lt;/p&gt;
@@ -194,49 +190,41 @@ let 衣服 : (String,Int,String) = (类型:&amp;quot;毛衣&amp;quot;,价格:   
         <description>&lt;p class=&quot;intro&quot;&gt;&lt;span class=&quot;dropcap&quot;&gt;C&lt;/span&gt;urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
 &lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
+&lt;p&gt;## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6&lt;/p&gt;
 
 &lt;blockquote&gt;Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.&lt;/blockquote&gt;
 
 &lt;p&gt;Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.&lt;/p&gt;
 
 &lt;h2 id=&quot;unordered-list&quot;&gt;Unordered List&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;List Item&lt;/li&gt;
-&lt;li&gt;Longer List Item
-
-&lt;ul&gt;
-&lt;li&gt;Nested List Item&lt;/li&gt;
-&lt;li&gt;Nested Item&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;List Item&lt;/li&gt;
+  &lt;li&gt;List Item&lt;/li&gt;
+  &lt;li&gt;Longer List Item
+    &lt;ul&gt;
+      &lt;li&gt;Nested List Item&lt;/li&gt;
+      &lt;li&gt;Nested Item&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List Item&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;ordered-list&quot;&gt;Ordered List&lt;/h2&gt;
-
 &lt;ol&gt;
-&lt;li&gt;List Item&lt;/li&gt;
-&lt;li&gt;Longer List Item
-
-&lt;ol&gt;
-&lt;li&gt;Nested OL Item&lt;/li&gt;
-&lt;li&gt;Another Nested Item&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;List Item&lt;/li&gt;
+  &lt;li&gt;List Item&lt;/li&gt;
+  &lt;li&gt;Longer List Item
+    &lt;ol&gt;
+      &lt;li&gt;Nested OL Item&lt;/li&gt;
+      &lt;li&gt;Another Nested Item&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List Item&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;definition-list&quot;&gt;Definition List&lt;/h2&gt;
-
 &lt;dl&gt;
   &lt;dt&gt;Coffee&lt;/dt&gt;
   &lt;dd&gt;Black hot drink&lt;/dd&gt;
@@ -253,6 +241,7 @@ let 衣服 : (String,Int,String) = (类型:&amp;quot;毛衣&amp;quot;,价格:   
 &lt;p&gt;Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.&lt;/p&gt;
 
 &lt;p&gt;Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+
 </description>
         <pubDate>Sun, 15 Dec 2013 00:00:00 +0800</pubDate>
       </item>
