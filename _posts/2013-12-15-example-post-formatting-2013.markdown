@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Example Post Formatting 2013"
+title:  "Example  Formatting 2013"
 date:   2013-12-15
 author: Author
 category: ios
@@ -51,3 +51,5 @@ Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Duis molli
 Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
 
 Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+
