@@ -1,28 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daktilo</title>
+    <title>cxtBlog</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://hitchhiker.ma/</link>
-    <atom:link href="http://hitchhiker.ma/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 13:06:18 +0800</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 13:06:18 +0800</lastBuildDate>
+    <link>http://lemon8.top/</link>
+    <atom:link href="http://lemon8.top/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 30 Jan 2016 13:12:26 +0800</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 13:12:26 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
+        <title>swift 基础😊</title>
         <description>&lt;pre&gt;&lt;code&gt;keyu
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-        <pubDate>Mon, 07 Sep 2015 07:34:01 +0800</pubDate>
-        <link>http://hitchhiker.ma/design/tool/2015/09/07/Swift-1.html</link>
-        <guid isPermaLink="true">http://hitchhiker.ma/design/tool/2015/09/07/Swift-1.html</guid>
+        <pubDate>Sat, 30 Jan 2016 00:00:00 +0800</pubDate>
+        <link>http://lemon8.top/ios/2016/01/30/Swift-1.html</link>
+        <guid isPermaLink="true">http://lemon8.top/ios/2016/01/30/Swift-1.html</guid>
         
         
-        <category>design</category>
-        
-        <category>tool</category>
+        <category>ios</category>
         
       </item>
     
@@ -43,8 +41,8 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Sep 2015 07:34:01 +0800</pubDate>
-        <link>http://hitchhiker.ma/design/tool/2015/09/07/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://hitchhiker.ma/design/tool/2015/09/07/welcome-to-jekyll.html</guid>
+        <link>http://lemon8.top/design/tool/2015/09/07/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://lemon8.top/design/tool/2015/09/07/welcome-to-jekyll.html</guid>
         
         
         <category>design</category>
@@ -114,8 +112,8 @@
 &lt;p&gt;Want to suggest something? Please &lt;a href=&quot;https://github.com/kronik3r/daktilo/issues/new&quot;&gt;Send me a request&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Aug 2014 07:56:45 +0800</pubDate>
-        <link>http://hitchhiker.ma/tool/2014/08/20/sample-post.html</link>
-        <guid isPermaLink="true">http://hitchhiker.ma/tool/2014/08/20/sample-post.html</guid>
+        <link>http://lemon8.top/tool/2014/08/20/sample-post.html</link>
+        <guid isPermaLink="true">http://lemon8.top/tool/2014/08/20/sample-post.html</guid>
         
         
         <category>tool</category>
