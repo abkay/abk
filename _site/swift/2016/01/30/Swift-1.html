@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Welcome to Jekyll! — Feel home! &raquo;  cxtBlog</title>
+<title> swift 基础 — 元组 &raquo;  cxtBlog</title>
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 <meta name="keywords" content="">
-<link rel="canonical" href="http://lemon8.top/design/tool/2015/09/07/welcome-to-jekyll.html">
+<link rel="canonical" href="http://lemon8.top/swift/2016/01/30/Swift-1.html">
         
 
 
@@ -16,7 +16,7 @@
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Welcome to Jekyll!" />
+<meta name="twitter:title" content="swift 基础" />
 <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 " />
 <meta name="twitter:image" content="http://lemon8.top" />
@@ -28,10 +28,10 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Welcome to Jekyll!">
+<meta property="og:title" content="swift 基础">
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
-<meta property="og:url" content="http://lemon8.top/design/tool/2015/09/07/welcome-to-jekyll.html">
+<meta property="og:url" content="http://lemon8.top/swift/2016/01/30/Swift-1.html">
 <meta property="og:site_name" content="cxtBlog">
 
         <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
@@ -65,24 +65,43 @@
 </header>
 
             <h1 class="page-title post-title">
-    <div class="page-title__text post-title__text">Welcome to Jekyll!</div>
-    <div class="page-title__subtitle post-title__subtitle">Feel home!</div>
+    <div class="page-title__text post-title__text">swift 基础</div>
+    <div class="page-title__subtitle post-title__subtitle">元组</div>
 </h1>
 
 <div class="content">
-    <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <h1>Swift元组类型(Tuple)</h1>
 
-<p>To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention <code>YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p><strong>优点</strong></p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<ol>
+<li>元组可以同时存储多种类型元素，且元素类型固定，以保证数据安全，除非你定义数据类型为Any。编译器会对赋值参数类型进行检查</li>
+<li>元组的元素个数固定，不允许增加、删除，编译器会严格校验赋值参数个数</li>
+<li>无需定义key，但是必要时可以为数据命名，方便数据访问</li>
+<li>适合同时遍历多元数据，例如官方文档的例子</li>
+</ol>
 
-<p><figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure></p>
 
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://github.com/jekyll/jekyll-help">Jekyll’s dedicated Help repository</a>.</p>
+<p><strong>缺点</strong></p>
+
+<ol>
+<li>不适合存储大量数据，因为元组不支持append、remove等方法</li>
+<li>考虑到工程实际情况，后端使用的语言可能不支持元组，需要转换为其他格式</li>
+</ol>
+
+
+<blockquote><p>元组适合应用于组合少量的多元的数据，与数组、字典结合使用可以产生强大威力。</p></blockquote>
+
+<pre><code class="swift">let 昨天我网购的一件衬衫 = (价格:70,颜色:"黑色",合身:true)
+
+if 昨天我网购的一件衬衫.合身 {
+   print("看，我买的一件\(昨天我网购的一件衬衫.颜色)衬衫，帅不帅，才\(昨天我网购的一件衬衫.价格)元")
+}else{
+   print("卧槽，实物与图不符合呀")
+}
+</code></pre>
+
+<p><img src="media/Snip20160130_1.png" alt="Snip20160130_1" /></p>
 
 </div>
 
@@ -90,7 +109,7 @@
     <div class="about__devider">*****</div>
     <div class="about__text">
         Written by <strong>  chen xuting </strong>
-        on <strong>07 September 2015</strong>
+        on <strong>30 January 2016</strong>
     </div>
 </div>
 

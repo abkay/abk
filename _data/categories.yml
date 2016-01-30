@@ -1,8 +1,8 @@
-- slug: ios
+- slug: iOS
   name: iOS
 
 - slug: tools
   name: Tools
 
-- slug: productivity
-  name: Productivity
+- slug: Swift
+  name: Swift
