@@ -6,8 +6,8 @@
 </description>
     <link>http://lemon8.top/</link>
     <atom:link href="http://lemon8.top/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 23:55:24 +0800</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 23:55:24 +0800</lastBuildDate>
+    <pubDate>Sat, 30 Jan 2016 23:58:05 +0800</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 23:58:05 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -61,13 +61,15 @@ switch 坐标{
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Sat, 30 Jan 2016 00:00:00 +0800</pubDate>
-        <link>http://lemon8.top/ios/swift/2016/01/30/Swift-1.html</link>
-        <guid isPermaLink="true">http://lemon8.top/ios/swift/2016/01/30/Swift-1.html</guid>
+        <link>http://lemon8.top/ios/swift/tools/2016/01/30/Swift-1.html</link>
+        <guid isPermaLink="true">http://lemon8.top/ios/swift/tools/2016/01/30/Swift-1.html</guid>
         
         
         <category>ios</category>
         
-        <category>Swift</category>
+        <category>swift</category>
+        
+        <category>tools</category>
         
       </item>
     
