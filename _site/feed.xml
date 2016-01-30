@@ -6,12 +6,12 @@
 </description>
     <link>http://lemon8.top/</link>
     <atom:link href="http://lemon8.top/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Jan 2016 22:51:18 +0800</pubDate>
-    <lastBuildDate>Sat, 30 Jan 2016 22:51:18 +0800</lastBuildDate>
+    <pubDate>Sat, 30 Jan 2016 23:04:05 +0800</pubDate>
+    <lastBuildDate>Sat, 30 Jan 2016 23:04:05 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>swift 基础</title>
+        <title>swift 基础(元组)</title>
         <description>&lt;h1&gt;Swift元组类型(Tuple)&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;优点&lt;/strong&gt;&lt;/p&gt;
@@ -50,7 +50,7 @@ if 昨天我网购的一件衬衫.合身 {
         <guid isPermaLink="true">http://lemon8.top/swift/2016/01/30/Swift-1.html</guid>
         
         
-        <category>swift</category>
+        <category>Swift</category>
         
       </item>
     

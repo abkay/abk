@@ -1,8 +1,11 @@
 - slug: iOS
   name: iOS
 
+- slug: Swift
+  name: Swift
+
 - slug: tools
   name: Tools
 
-- slug: Swift
-  name: Swift
+- slug: other
+  name: other
