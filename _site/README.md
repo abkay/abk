@@ -1,86 +1,60 @@
-# Fengzhichu Theme
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kronik3r/daktilo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-A jekyll theme for personal blog which based on [Type theme](https://github.com/rohanchandra/type-theme) and [ibireme's blog](http://blog.ibireme.com). Add several useful features. Fengzhichu Theme is powered by [Jekyll](http://jekyllrb.com/) and freely
-hosted in [Github pages](https://pages.github.com/).
+# Daktilo
+Daktilo is a [Jekyll](jekyllrb.com) theme with a minimal design inspired from typewriters.
 
-## Check the live demo
+# Live preview
+[Click here](http://hitchhiker.ma/daktilo/) to see the theme in action.
 
-[Fengzhichu Theme Live Demo](https://fengzhichu.com)
+# Features
+- Fully responsive
+- [Disqus](https://disqus.com/) integration for comments.
+- Google Analytics integration.
+- Syntax Highlighter (using [highlight.js](https://highlightjs.org/)).
+- Support for categories.
+- Font-Awesome Icons.
+- Optimized for SEO.
+- Coolest [404 page ever](http://hitchhiker.ma/daktilo/404.html).
 
-## Screenshots
-![Home page](img/Screenshot1.png)
-![Pst page](img/Screenshot2.png)
-![Archive page](img/Screenshot3.png)
-![Category page](img/Screenshot4.png)
-![About page](img/Screenshot5.png)
+# How to use it
+Start by cloning the repository, then check the `_config.yml` file and change it accordingly.
+Note that the `title` property is what will be displayed as logo.
 
-## How to use it
-* Star & Fork the [repo](https://github.com/fengzhichu/fengzhichu-theme).
-* Rename repo as 'yourusername.github.io'.
-* You can delete gh-pages branch if you want.
-* Clone your <b>master branch</b> to local directory.
-* Custom the '_config.yml' to your style.
-* Install jekyll can refer 'ruby_install_by_rvm.sh', modify to suit your need.
-* Run jekyll serve -w.
+Finally execute `jekyll serve --watch` and head to [localhost:4000](http://127.0.0.1:4000) to see the result.
 
-## Customization
+# Using categories
+Categories are little bit tricky. Please make sure to do the following for each category:
 
-###_config.yml
-Some important configurations.
-* imageurl: Randomly change image which display on top of site.
-  * By default image changes everytime when open your site or reflash it. If you want to change image daily or weekly, just append '/daily' or 'weekly' to imageurl.
-* title: Display on browse tab.
-* hometitle: The first menu name of navigation bar.
-* yoursitetitle: Your LOGO place here.
-* visiblewords: Number of words which you want to display in post of homepage.
-* sechby:
-  * category: "Posted in" #Words before Category name.
-  * tag: "with" #Words before Tag name.
-  * example: Posted in 'Category name' with 'Tag name'.
+- Create a file within `categories` folder with the name of your category
+For example let's say that we have a category called `An Awesome Category` you will need to add an `an-awesome-category.html` file with this content:
 
-###Tags
-Add new tag.
-* Annotate your post entry front-matter block as usual:
-```yml
+``` html
 ---
-layout: post
-title: How To Use Tags And Categories On GitHub Pages Without Plugins
-category: programming
-tags: [github, github-pages, jekyll]
+layout: category
+category: an-awesome-category
+permalink: /categories/an-awesome-category/
 ---
+
 ```
-* Add an entry in your _data/tags.yml for every tag.
-```yml
-- slug: github-pages
-  name: GitHub Pages
+
+- Create an entry inside `_data/categories.yml`
+
+``` html
+- slug: an-awesome-category
+  name: An Awesome Category
 ```
-* Create a .md file which name is your Tag slug for every tag.
-```yml
----
-layout: blog_by_tag
-tag: github-pages
-permalink: /blog/tag/github-pages/
----
-  ```
 
-###Categories
-Similar as Tags.
+- Then you will see it in the footer in the `Explore` section.
 
-## Thanks
-* Theme template: [type-theme](https://github.com/rohanchandra/type-theme)
-* Navigation bar: [ibireme's blog](http://blog.ibireme.com)
-* Features of Tag and Category: [HOW TO USE TAGS AND CATEGORIES ON GITHUB PAGES WITHOUT PLUGINS](http://www.minddust.com/post/tags-and-categories-on-github-pages/)
+# Sneak peek
 
-## Enjoy
-- If you like, please star it. Thank you!
-- Enjoy it!
+![img][home_desktop]
 
-## Copyright & License
-Copyright (C) 2015 - Released under the MIT License.
+![img][home_phone]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+[home_desktop]: https://raw.githubusercontent.com/kronik3r/assets/master/daktilo/desktop.png
+[home_phone]: https://raw.githubusercontent.com/kronik3r/assets/master/daktilo/phone.png
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+# License
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+The contents of this repository is licensed under [The MIT License.](https://opensource.org/licenses/MIT)
